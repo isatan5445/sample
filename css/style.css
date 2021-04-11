@@ -1,0 +1,140 @@
+@charset "UTF-8";
+
+/* 全体や共通
+------------------------------ */
+
+/* フォントサイズ */
+html {
+    font-size: 100%;
+}
+
+/* 行の高さ */
+body {
+    /* font-family: ; */
+    line-height: 1.7;
+    color: #666;
+}
+
+/* a の下線 */
+a {
+    text-decoration: none;
+}
+
+li {
+    list-style: none;
+}
+
+/* 画面からのはみ出し防止 */
+img {
+    max-width: 100%;
+}
+
+.wrapper {
+    max-width: 960px;
+    background-color: #fbc3c3db;
+    padding: 4%;
+    margin: 0 auto;
+}
+
+h2 {
+    display: inline;
+    border-bottom: 1px solid #666;
+    font-size: 2rem;
+    margin-bottom: 100px;
+}
+
+
+/* header
+------------------------------ */
+#hdr {
+    display: flex;
+    justify-content: space-between;
+}
+
+h1 {
+    width: 150px;
+    margin-top: 20px;
+    margin-left: 40px;
+}
+
+.main-nav {
+    display: flex;
+    margin-top: 30px;
+    margin-right: 20px;
+}
+
+.main-nav li {
+    margin-left: 40px;
+    
+}
+
+.main-nav li:visited {
+    color: #666;
+}
+
+.main-nav li:hover {
+    opacity: 0.7;
+}
+
+/* main
+------------------------------ */
+
+
+
+/* メインビジュアル 
+*/
+
+#mainvisual img {
+    height: 600px;
+    width: 100%;
+    object-fit: cover;
+    /* background-size: cover; */
+}
+
+/* About 
+*/
+
+#about {
+    text-align: center;
+}
+
+#about img {
+    width: 130px;
+    border-radius: 50%;
+    display: flex;
+}
+
+#about p {
+    padding-bottom: 2rem;
+}
+
+
+/* 
+Bycycle 
+*/
+
+#bicycle {
+margin: 0 auto;
+text-align: center;
+}
+
+#bicycle ul{
+/* column-count: 3; */
+display: flex;
+flex-direction: row;
+justify-content: space-evenly;
+}
+
+#bicycle li {
+    margin: 10px;
+}
+
+
+/* フッター
+------------------------------ */
+footer {
+    font-size: 0.5rem;
+    text-align: center;
+    padding: 10px;
+    margin-top: 100px;
+} 
